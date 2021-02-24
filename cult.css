@@ -1,0 +1,102 @@
+body {
+    background: url(/cultcase/img/starbackground.png);
+    animation: slide 40s linear infinite;
+}
+nav {
+    background-color: #333131;
+}
+a {
+    text-decoration: none;
+    color: #EBEBE3;
+}
+a:hover {
+    color: #ff0505;
+}
+.cat {
+    padding-top: 10px;
+}
+
+.oview {
+    padding-top: 10px;
+}
+.undert {
+    border-bottom: 10px solid #F9C50D;
+}
+.begmap {
+    background-color: #F9C50D;
+    padding: 2%;
+    text-align: center;
+    border-radius: 50%;
+}
+.step {
+    background-color: blue;
+    color: white;
+    padding: 2%;
+    text-align: center;
+}
+.para {
+    background-color: #FFE073;
+    border-color: #F9C50D;
+    padding: 2%;
+    margin-top: 50px;
+    text-align: center;
+    transform: skew(20deg);
+}
+.dmnd {
+    background-color: #8EA0FF;
+    
+    height: 100px;
+    width: 100px;
+    
+    transform: rotate(45deg);
+    text-align: justify;
+}
+.dmndtext {
+    text-align: center;
+    transform: rotate(-45deg);
+    padding-top: 30px;
+    margin-right: 20px;
+}
+.vertl {
+    border-right: 60px black;
+    background-color: darkgrey;
+    height: 10px;
+    width: 1px;
+    margin-left: 100px;
+}
+.horizl {
+    border-top: 60px;
+    background-color: darkgrey;
+    height: 10px;
+    width: 175px;
+    margin-top: 75px;
+}
+.screen {
+    border: 5px solid black;
+    border-radius: 5%;
+    transform: rotate(-45deg);
+    overflow: hidden;
+}
+.mscreen {
+    border: 5px solid black;
+    border-radius: 5%;
+    transform: rotate(45deg);
+    overflow: hidden;
+}
+.endbar {
+    background-color: #F9C50D;
+    width: 100%;
+    height: 10px;
+    padding: 0;
+}
+footer {
+    background-color: #333131;
+}
+.logoexp {
+    color: #ff0505;
+}
+
+@keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: 0 500px; }
+}
